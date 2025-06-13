@@ -2,7 +2,7 @@
 
 from enum import IntEnum
 
-DOMAIN = "cozytouch"
+DOMAIN = "cozytouchdev"
 
 COZYTOUCH_ATLANTIC_API = "https://apis.groupe-atlantic.com"
 COZYTOUCH_CLIENT_ID = (

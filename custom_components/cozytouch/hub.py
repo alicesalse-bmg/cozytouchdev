@@ -185,7 +185,7 @@ class Hub(DataUpdateCoordinator):
 
         if self._dump_json:
             with open(
-                self._hass.config.config_dir + "/Cozytouch.json", "w", encoding="utf-8"
+                self._hass.config.config_dir + "/Cozytouch_dev.json", "w", encoding="utf-8"
             ) as outfile:
                 json_object = json.dumps(json_data, indent=4)
                 outfile.write(json_object)

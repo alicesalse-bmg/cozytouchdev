@@ -1,7 +1,7 @@
 {
-    "domain": "cozytouch",
-    "name": "Atlantic Cozytouch",
-    "codeowners": ["@gduteil"],
+    "domain": "cozytouchdev",
+    "name": "Atlantic Cozytouch Devs",
+    "codeowners": ["@gduteil", "@alicesalse-bmg"],
     "config_flow": true,
     "documentation": "https://github.com/gduteil/cozytouch",
     "iot_class": "cloud_polling",
