@@ -403,7 +403,7 @@ class Hub(DataUpdateCoordinator):
         for dev in self._devices:
             if dev["deviceId"] == self._deviceId:
                 for capability in dev["capabilities"]:
-                    print(capability)
+                    _LOGGER.debug("Get_capability_value %s", capability)
                     if capabilityId == capability["capabilityId"]:
                         return capability["value"]
 
